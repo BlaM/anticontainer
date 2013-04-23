@@ -1,0 +1,9 @@
+{
+    "type": "resolver",
+    "prefix": "khinsider.de",
+    "match": "^http://www.downloads.khinsider.com/game-soundtracks/album/[^/]+/[^/]+\\.mp3$",
+    "finder": "href=\"(http://[^ ]+/[a-z]+/[^/]+\\.mp3)\">Download to Computer",
+    "builder": "{1}",
+    "ns": "deobald.org",
+    "author": "BlaM"
+}
